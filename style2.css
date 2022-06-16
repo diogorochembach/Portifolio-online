@@ -8,21 +8,28 @@ body {
 }
 
 header {
-    margin: 30px 0 100px 76px;
+    display: flex;
+    margin: 10px 0px 0px 10px;
 }
-
 
 .link-header {
-    font-weight: 600;
-    font-size: 19px;
-    line-height: 29px;
-    color: #FAFAFA;
-    cursor: pointer;
+    color: white;
     text-decoration: none;
-    margin-right: 23px;
-
+    padding: 0px 5px;
+    font-size: 16pt;
+    font-weight: 700;
 }
 
+.icon {
+    width: 25px;
+    height: 25px;
+    padding: 0px 2px;
+}
+
+.redes-sociais {
+    display: flex;
+    margin-left: 50%;
+}
 
 .logo-image {
     width: auto;
@@ -30,13 +37,12 @@ header {
     margin-left: 125px;
     margin-top: 5px;
     display: inline-block;
-
 }
 
 section {
     display: inline-block;
     margin-left: 200px;
-    margin-top: 10px;
+    margin-top: 120px;
 }
 
 h3 {
@@ -86,43 +92,6 @@ h2 {
     filter: drop-shadow(2px 2px 1px #F06529);
     margin-top: 30px;
     margin-left: 20px;
-}
-
-div {
-    text-align: right;
-    margin-right: 200px;
-    margin-top: 50px;
-
-}
-
-a {
-    text-decoration: none;
-    color: #fff;
-}
-
-.fac {
-    width: 25px;
-    height: 25px;
-    float: right;
-}
-
-.insta{
-    width: 25px;
-    height: 25px;
-    float: right;
-    margin-left: -3px;
-    margin-right: 2px;
-}
-
-.in{
-    width: 25px;
-    height: 25px;
-    float: right;
-}
-
-.redes-sociais{
-    display: flex;
-    float: right;
 }
 
 .button-main:hover {
